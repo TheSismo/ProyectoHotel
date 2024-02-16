@@ -3,6 +3,8 @@ package ProyectoHotel;
 import java.util.List;
 
 public class Receptcion {
+    list<Cliente> clienes;
+    list<Habitacion> Habitaciones;
     int PrecioDeLaSuite = 275;
     int PrecioDeLaHabitacionDoble = 60;
     int PrecioDeLaHabitacionIndividual = 128;
