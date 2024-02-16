@@ -5,9 +5,13 @@ import java.util.List;
 
 public class Main {
     public static void main() {
-        List<Guest> listGuests = new LinkedList<Guest>();
+        List<Cliente> listGuests = new LinkedList<Cliente>();
 
-        List<Room> listRooms = new LinkedList<Room>();
+        List<Habitacion> listRooms = new LinkedList<Habitacion>();
+
+        List<Reserva> listBookings = new LinkedList<Reserva>();
+
+    
 
     }
     
