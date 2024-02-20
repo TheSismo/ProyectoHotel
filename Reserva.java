@@ -17,4 +17,5 @@ public class Reserva {
 
         System.out.println("El precio de la habitacion es: " + DiasDeEstancia * HabitacionDoble);
     }
+   
 }

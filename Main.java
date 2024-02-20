@@ -10,8 +10,9 @@ public class Main {
         List<Cliente> Client2 = new Cliente(DavidManuelEugenSoos, 643235422, DoboNoTeVeagmail.com);
 
         List<Habitacion> listaHabitaciones = new LinkedList<Habitacion>();
-        Habitacion Habitac1 = new Habitacion("Suite", 100, true);
-
+        List<Habitacion> Habitac1 = new Habitacion("Suite", 100, true);
+        List<Habitacion> Habitac2 = new Habitacion("HabitacionIndividual", 22, false);
+        
     }
     
 }
