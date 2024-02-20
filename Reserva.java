@@ -3,6 +3,8 @@ package ProyectoHotel;
 public class Reserva {
 
     String Cliente;
-    int Habitacion;
+    String Habitacion;
     int DiasDeEstancia;
+
+    public static int PrecioSuite(Suite * DiasDeEstancia)
 }
