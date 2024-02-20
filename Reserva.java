@@ -1,4 +1,4 @@
-
+package ProyectoHotel;
 
 public class Reserva {
 
