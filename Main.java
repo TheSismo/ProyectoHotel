@@ -6,17 +6,24 @@ import java.util.List;
 public class Main {
     public static void main() {
         List<Cliente> listaClientes = new LinkedList<Cliente>();
-        List<Cliente> Client1 = new Cliente(Guille, 617543067, GuilleSeCagaEnDavidagmail.com);
-        List<Cliente> Client2 = new Cliente(DavidManuelEugenSoos, 643235422, DoboNoTeVeagmail.com);
-        listaClientes.add(Client1);
-        listaClientes.add(Client2);
+        listaClientes.add(new Cliente("Matias", "JoeMama@gmail.com", 611542387));
+        listaClientes.add(new Cliente("Jhairo Velazquez", "Momovil@gmail.com", 546201436));
+        listaClientes.add(new Cliente("Culeador de Gallinas", "Funagallinas@gmail.com", 645213587));
 
         List<Habitacion> listaHabitaciones = new LinkedList<Habitacion>();
-        List<Habitacion> Habitac1 = new Habitacion("Suite", 100, true);
-        List<Habitacion> Habitac2 = new Habitacion("HabitacionIndividual", 22, false);
-        listaHabitaciones.add(Habitac1);
-        listaHabitaciones.add(Habitac2);
-        
+        listaHabitaciones.add(new Habitacion("Suite", 45, true));
+        listaHabitaciones.add(new Habitacion("HabitacionDoble", 42, false));
+        listaHabitaciones.add(new Habitacion("HabitacionIndividual", 22, true));
+
+        List<Reserva> listaReservas = new LinkedList<Reserva>();
+        listaReservas.add(new Reserva("Matias", "HabitacionDoble", 7));
+        listaReservas.add(new Reserva("Jhairo Velazquez", "HabitacionIndividual", 4));
+ 
+
+        //crear el objeto recepción
+        )
+
+        //Mostrar al usuario un menú con números y las opciones de acciones que puede hacer (registrar cliente, realizar reserva, salir)
     }
     
 }
