@@ -37,7 +37,7 @@ public class Main {
              MostrarDisponibilidad(listaHabitaciones.Disponibilidad);
 
         if(eleccion == 2) {
-            Reserva()
+            HacerReserva(Reserva.cliente.Habitacion.DiasDeEstancia, CostoDeLaHabitacion);
         }
         }
 
