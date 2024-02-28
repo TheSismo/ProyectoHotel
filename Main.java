@@ -2,6 +2,7 @@ package ProyectoHotel;
 
 import java.util.LinkedList;
 import java.util.List;
+import java.util.Scanner;
 
 public class Main {
     public static void main() {
@@ -11,9 +12,7 @@ public class Main {
         listaClientes.add(new Cliente("Culeador de Gallinas", "Funagallinas@gmail.com", 645213587));
 
         List<Habitacion> listaHabitaciones = new LinkedList<Habitacion>();
-        listaHabitaciones.add(new Habitacion("Suite", 45, true));
-        listaHabitaciones.add(new Habitacion("HabitacionDoble", 42, false));
-        listaHabitaciones.add(new Habitacion("HabitacionIndividual", 22, true));
+        listaHabitaciones.add = new Habitacion(25, false, "Suite");
 
         List<Reserva> listaReservas = new LinkedList<Reserva>();
         listaReservas.add(new Reserva("Matias", "HabitacionDoble", 7));
@@ -21,9 +20,26 @@ public class Main {
  
 
         //crear el objeto recepción
-        )
+        Recepcion(listaClientes, listaHabitaciones, listaReservas);
 
         //Mostrar al usuario un menú con números y las opciones de acciones que puede hacer (registrar cliente, realizar reserva, salir)
+        Scanner sc = new Scanner(System.in);
+        System.out.println("¿Que quieres hacer?");
+        System.out.println("1 - Reservar una habitación");
+        System.out.println("2 - Registrar un cliente");
+
+        int eleccion = sc.nextInt();
+        sc.nextLine();
+
+        if(eleccion == 1) {
+            if(Disponibilidad == false) System.out.println("La habitacion no esta disponible" + listaHabitacion.Disponibilidad);
+             MostrarDisponibilidad(listaHabitaciones.Disponibilidad);
+
+        if(eleccion == 2) {
+            Reserva()
+        }
+        }
+
     }
     
 }
