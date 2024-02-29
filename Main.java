@@ -3,7 +3,7 @@ package ProyectoHotel;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Scanner;
-
+import Habitacion.Disponibilidad;
 public class Main {
     public static void main() {
         List<Cliente> listaClientes = new LinkedList<Cliente>();
@@ -12,15 +12,18 @@ public class Main {
         listaClientes.add(new Cliente("Culeador de Gallinas", "Funagallinas@gmail.com", 645213587));
 
         List<Habitacion> listaHabitaciones = new LinkedList<Habitacion>();
-        listaHabitaciones.add = new Habitacion(25, false, "Suite");
+        listaHabitaciones.add(new Habitacion(25, false, "Suite"));
+        listaHabitaciones.add(new Habitacion(42, true, "Doble"));
+        listaHabitaciones.add(new Habitacion(47, true, "Individual"));
 
         List<Reserva> listaReservas = new LinkedList<Reserva>();
         listaReservas.add(new Reserva("Matias", "HabitacionDoble", 7));
         listaReservas.add(new Reserva("Jhairo Velazquez", "HabitacionIndividual", 4));
+        listaReservas.add(new Reserva("Joseador", "HabitacionIndividual", 4));
  
 
         //crear el objeto recepción
-        Recepcion(listaClientes, listaHabitaciones, listaReservas);
+        Recepcion(listaClientes, listaHabitaciones);
 
         //Mostrar al usuario un menú con números y las opciones de acciones que puede hacer (registrar cliente, realizar reserva, salir)
         Scanner sc = new Scanner(System.in);
@@ -36,10 +39,15 @@ public class Main {
              MostrarDisponibilidad(listaHabitaciones.Disponibilidad);
 
         if(eleccion == 2) {
-            HacerReserva(Reserva.cliente.Habitacion.DiasDeEstancia, CostoDeLaHabitacion);
+            HacerReserva(Reserva.Cliente, Reserva.Habitacion, + CostoDeLaHabitacion);
         }
         }
 
+    }
+
+    private static void Recepcion(List<Cliente> listaCliente, List<Habitacion> listaHabitaciones) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'Recepcion'");
     }
     
 }

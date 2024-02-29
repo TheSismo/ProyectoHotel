@@ -4,8 +4,8 @@ import java.util.Scanner;
 
 public class Reserva {
 
-    String Cliente;
-    String Habitacion;
+    static String Cliente;
+    static String Habitacion;
     int DiasDeEstancia;
 
     public Reserva(String Cliente, String Habitacion, int DiasDeEstancia) {

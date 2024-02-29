@@ -1,8 +1,10 @@
 package ProyectoHotel;
 
-public class Recepcion {
-    List<Cliente> ListaClientes;
+import java.util.List;
 
-    List<Habitacion> ListaHabitaciones;
+public class Recepcion {
+    List<Cliente> listaClientes;
+
+    List<Habitacion> listaHabitaciones;
     
 }
