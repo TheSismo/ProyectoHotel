@@ -1,3 +1,4 @@
+
 package ProyectoHotel;
 
 import java.util.LinkedList;
