@@ -3,14 +3,8 @@ package ProyectoHotel;
 import ProyectoHotel.Cliente;
 
 public class Reserva {
-
-<<<<<<< HEAD
-    static String Cliente;
-    static String Habitacion;
-=======
     Cliente Cliente;
     Habitacion Habitacion;
->>>>>>> 204baa2a0230df1a418f9993b84973da9b136458
     int DiasDeEstancia;
 
     public int CalcularCosto(Reserva reserva) {
